@@ -1,9 +1,8 @@
 package HomeworkWeek2;
-public class ArithmeticHomework {
+public class DataTypesArithmeticHomework {
 
     public static void main(String[] args ){
 
-        byte aByte = 10;
         byte bByte = 20;
 
         short aShort = 200;
@@ -22,7 +21,6 @@ public class ArithmeticHomework {
         double bDouble = 1.777;
 
         char xChar = 'x' ;  // change this value from 'x' to  'y' to see another outcome for the boolean value.
-        char k = '1' ;  // change this value from 'x' to  'y' to see another outcome for the boolean value.
 
         boolean aBoolean = true;
         boolean bBoolean = false;
