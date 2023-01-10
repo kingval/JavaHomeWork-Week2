@@ -10,8 +10,12 @@ Write a program to check if a candidate is eligible for voting or not with user 
 Candidate Age must be 18 or greater to vote.
 */
         System.out.println("Enter your Age to check if you are eligible to Vote: ");
+
         Scanner sc = new Scanner(System.in);
+
         int age = sc.nextInt();
+
+
         if(age>=18){
             System.out.println("Congratulations, You are eligible to Vote");
         }
@@ -23,3 +27,4 @@ Candidate Age must be 18 or greater to vote.
 
 
 }
+
